@@ -19,6 +19,7 @@ Apply NLP to filter political news
   - Naive Bayes
   - SVM
   - Logistic Regression
+    
     | 장점 | 단점 |
     |-----|-----|
     |구현 간단|문맥 이해 부족|
