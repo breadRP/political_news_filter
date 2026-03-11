@@ -28,16 +28,16 @@ Apply NLP to filter political news
 ### 딥러닝 기반 방법
   - LSTM
   - CNN
-    '''
-    뉴스  
-      ↓  
-    Embedding  
-      ↓  
-    LSTM  
-      ↓  
-    Classifier  
-      ↓  
-    정치 / 비정치  
+
+    뉴스 (Input)
+       ↓
+    Embedding
+       ↓
+    LSTM
+       ↓
+    Classifier
+       ↓
+    정치 / 비정치 (Output)
 
     |장점|단점|
     |---|---|
