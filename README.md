@@ -8,7 +8,7 @@ Apply NLP to filter political news
 그렇기에 NLP를 이용해 이를 필터링해보는 프로젝트를 해보고자 한다.
 
 # Related Work
-- 키워드 기반 필터링
+- 키워드 기반 필터링  
   | 장점 | 단점 |
   |-----|-----|
   |데이터 없이도 가능|정확도 낮음|
