@@ -29,15 +29,15 @@ Apply NLP to filter political news
   - LSTM
   - CNN
     '''
-    뉴스
-      ↓
-    Embedding
-      ↓
-    LSTM
-      ↓
-    Classifier
-      ↓
-    정치 / 비정치
+    뉴스  
+      ↓  
+    Embedding  
+      ↓  
+    LSTM  
+      ↓  
+    Classifier  
+      ↓  
+    정치 / 비정치  
 
     |장점|단점|
     |---|---|
