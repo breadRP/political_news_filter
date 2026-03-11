@@ -97,6 +97,9 @@ Linear Layer
 ```
 
 # Dataset
+### 데이터 출처
+### 데이터 개수
+### 라벨링 기준
 
 # Experiment
 
