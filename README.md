@@ -46,18 +46,22 @@ Classifier
 
 ### Transformer 기반 모델
 #### 현재 NLP에서 가장 성능이 좋음
-    뉴스 텍스트
-         ↓
-    Tokenizer
-         ↓
-    BERT / KoBERT
-         ↓
-    CLS embedding
-         ↓
-    Classifier
-         ↓
-    정치 / 비정치
-        
+- BERT
+- KoBERT
+- KLUE-BERT
+```
+뉴스 텍스트
+    ↓
+Tokenizer
+    ↓
+BERT / KoBERT
+    ↓
+CLS embedding
+    ↓
+Classifier
+    ↓
+정치 / 비정치
+```        
 
 # Method
 
