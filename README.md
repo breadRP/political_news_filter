@@ -14,7 +14,49 @@ Apply NLP to filter political news
   |데이터 없이도 가능|정확도 낮음|
   | |문맥 이해 못함|  
   
-  가장 기초적인 방법이나 정치와 관련된 말만 들어가면 정치 뉴스로 볼 가능성이 있다.
+  가장 기초적인 방법이나, 정치와 관련된 말만 들어가면 정치 뉴스로 볼 가능성이 있다.
+
+### 전통적인 머신러닝 방법
+  - Naive Bayes
+  - SVM
+  - Logistic Regression
+    | 장점 | 단점 |
+    |-----|-----|
+    |구현 간단|문맥 이해 부족|
+    |속도 빠름| |
+
+### 딥러닝 기반 방법
+  - LSTM
+  - CNN
+    '''
+    뉴스
+      ↓
+    Embedding
+      ↓
+    LSTM
+      ↓
+    Classifier
+      ↓
+    정치 / 비정치
+
+    |장점|단점|
+    |---|---|
+    |문맥 이해 가능|전체 학습 데이터 필요|
+
+### Transformer 기반 모델
+#### 현재 NLP에서 가장 성능이 좋음
+    뉴스 텍스트
+         ↓
+    Tokenizer
+         ↓
+    BERT / KoBERT
+         ↓
+    CLS embedding
+         ↓
+    Classifier
+         ↓
+    정치 / 비정치
+        
 
 # Method
 
